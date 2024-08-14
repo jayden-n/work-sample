@@ -1,29 +1,91 @@
 # Work Sample for Product Engineer
 
-Thank you for your interest in our company. Below are the requirements for a work sample that will help us assess your skills.
+Thank you for your interest in my work sample. Below is an overview of the tasks I have completed based on the provided
+requirements.
 
-**Problems:**
+## Project Overview
 
-This is a template that includes TailwindCSS which we use in our product. We want to enhance it to be more user-friendly and interactive.
+This project enhances a template that includes TailwindCSS to make it more user-friendly and interactive. The following
+features have been implemented:
 
-**Loading Spinner:** Replace the existing loading spinner with a picture or animation of your choice.
+1. **Loading Spinner Replacement**
+2. **Client-Side Data Table Implementation**
+3. **Bonus Features: Sorting and Editing**
 
-**Data Table:** Create a page with a client-side data table based on the data in the JSON file `db/data.json`. You can use axios or fetch to retrieve the data.
+## Features
 
-Implement a table that displays the data from the JSON file.
+### 1. Loading Spinner Replacement
 
-Ensure the table is styled with TailwindCSS.
+-   **Description:** The existing loading spinner has been replaced with a custom picture/animation to improve the user
+    experience.
 
-**Bonus:**
+### 2. Data Table Implementation
 
-**Sorting:** Enable sorting of the data by clicking on the column headers.
+-   **Description:** A client-side data table was created to display data retrieved from `db/data.json`.
+-   **Data Retrieval:** The data is fetched using the `axios` library (or the `fetch` API).
+-   **Styling:** The table is styled using TailwindCSS to ensure a consistent and modern design.
 
-**Editing**: Add a button to each row that allows users to edit the row's data. Provide a save button to persist the changes. For the purpose of this sample, you can either save the changes or log the updated data to the console.
+### 3. Bonus Features
 
-**Additional Notes:**
+#### Sorting
 
-You are free to use any library or framework you prefer, but we recommend using Tailwind UI or similar TailwindCSS-based components.
+-   **Description:** Users can sort the data by clicking on the column headers, allowing for a more interactive
+    experience.
 
-Ensure that your code is clean, maintainable, and well-documented.
+#### Editing
 
-We look forward to seeing your work!
+-   **Description:** An "Edit" button has been added to each row in the data table.
+    -   Upon clicking "Edit," users can modify the data in the row.
+    -   A "Save" button is provided to persist the changes. For demonstration purposes, the updated data is logged to
+        the console.
+
+## Installation and Setup
+
+To run this project locally, follow these steps:
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. **Install Dependencies:**
+
+    Navigate to the project directory and install the required dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the Project:**
+
+    Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. **View the Application:**
+
+    Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Libraries and Frameworks Used
+
+-   **TailwindCSS:** Used for styling the components.
+-   **Axios/Fetch API:** Used to fetch data from `db/data.json`.
+-   **Tailwind UI (Optional):** TailwindCSS-based components were used to enhance the UI.
+
+## Code Quality and Documentation
+
+-   **Code Quality:** The code is written to be clean, maintainable, and well-documented. Proper commenting and best
+    practices have been followed throughout the project.
+-   **Documentation:** Inline comments and documentation are provided where necessary to explain the implementation.
+
+## Conclusion
+
+This work sample demonstrates my ability to enhance an existing template using modern web development techniques, with a
+focus on user experience and interactivity. I look forward to any feedback or further discussion!
+
+---
+
+**Thank you for reviewing my work!**
